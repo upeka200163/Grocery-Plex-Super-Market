@@ -29,7 +29,7 @@ To run this project locally on your machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/grocery-plex.git](https://github.com/your-username/grocery-plex.git)
+    git clone : https://github.com/upeka200163/Grocery-Plex-Super-Market.git
     ```
 2.  **Open the folder:** Navigate to the project directory.
 3.  **Run the project:** Simply open the `index.html` file in your favorite web browser. No local server is strictly required, but using an extension like VS Code "Live Server" is recommended for the best experience.
