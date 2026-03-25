@@ -42,5 +42,5 @@ To run this project locally on your machine, follow these simple steps:
 ├── 📄 index.html      # Main HTML file containing the structure
 ├── 📄 style.css       # Main CSS file for styling and responsiveness
 ├── 📄 script.js       # JavaScript file for interactions and sliders
-└── 📄 README.md       # Project documentation
-
+├──📄 README.md        # Project documentation
+├──📁 images           # Website 3D images 
