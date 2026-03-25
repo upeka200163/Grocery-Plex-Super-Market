@@ -2,8 +2,8 @@
 
 Welcome to the **Grocery Plex** repository! This is a fully responsive, modern e-commerce front-end template designed for a grocery store. It provides a clean, user-friendly interface for customers to browse products, read reviews, and interact with the store.
 
-![Grocery Plex Preview](placeholder-for-your-website-screenshot.png) 
-*(Note: Replace the link above with an actual screenshot of your website)*
+<img width="1366" height="633" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/0bf59cdb-26fa-44f1-9f27-304e2ae8f997" />
+
 
 ## ✨ Features
 
