@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Plex Store Website</title> 
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>  
+    
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i>Grocery Plex</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Search " />
+          <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket"></div>
+            <div id="heart-btn" class="fas fa-heart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+            
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart1.jpg" alt="">
+                <div class="content">
+                    <h3>Cookies</h3>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart2.jpg" alt="">
+                <div class="content">
+                    <h3>Cocunt oil</h3>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart3.png" alt="">
+                <div class="content">
+                    <h3>Milk</h3>
+                    <span class="price">$13.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart4.jpg" alt="">
+                <div class="content">
+                    <h3>Pineapple</h3>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> $56.89</span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn"> login </a>
+
+        </form>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="image-content">
+            <img src="images/circularImage.png" alt="organic products circular logo">
+        </div>
+         
+        <div class="content">
+            <h3>buy best <span> organic product </span> online </h3>
+            <a href="#" class="btn"> get yours now </a><br><br>
+            <h1>Get <span class="orange-text"> 10% OFF</span><br> on your first
+              purchase</h1>
+
+        </div>
+        
+        </section>
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="images/banner1.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>Vegetables</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>fruits</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner3.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>assorted</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="product" id="product">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+    
+        <div class="controls" style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 3rem; flex-wrap: wrap;">
+            <button class="btn active" data-filter="all">All</button>
+            <button class="btn" data-filter="vegetables">Vegetables</button>
+            <button class="btn" data-filter="fruits">Fruits</button>
+            <button class="btn" data-filter="meat">Meat</button>
+            <button class="btn" data-filter="dairy">Dairy</button>
+            <button class="btn" data-filter="bakery">Bakery</button>
+            <button class="btn" data-filter="seafood">Seafood</button>
+        </div>
+    
+        <div class="box-container">
+    
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/onions.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Fresh Onion</h3>
+                    <div class="price">$14.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+    
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/orange.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Fresh Orange</h3>
+                    <div class="price">$12.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+    
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/broiler chicken.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">$25.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+    
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/milk.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Fresh Milk</h3>
+                    <div class="price">$5.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/bread.jpg" alt=""></div>
+                <div class="content">
+                    <h3> Bread</h3>
+                    <div class="price">$3.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/Crab.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Crab</h3>
+                    <div class="price">$35.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/coffe.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Coffee Mate</h3>
+                    <div class="price">$11.80</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/Butter Cake.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Butter Cake</h3>
+                    <div class="price">$20.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/squid.jpeg" alt=""></div>   
+                <div class="content">
+                    <h3>Squid</h3>
+                    <div class="price">$12.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/beef.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Beef</h3>
+                    <div class="price">$1.40</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/apple.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Apple</h3>
+                    <div class="price">$11.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/cauliflower.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Cauliflower</h3>
+                    <div class="price">$15.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/pork.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Pork</h3>
+                    <div class="price">$1.80</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/margarine.jpeg" alt=""></div>
+                <div class="content">
+                    <h3> Margarine</h3>
+                    <div class="price">$5.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/tomato.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <div class="price">$1.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/Chicken Pastry .jpg" alt=""></div>
+                <div class="content">
+                    <h3>Chicken Pastry</h3>
+                    <div class="price">$13.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/watermelon.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Water Melon</h3>
+                    <div class="price">$1.45</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/kelawalla fish.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Kwlawalla Fish</h3>
+                    <div class="price">$13.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/egg plant.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>EggPlant</h3>
+                    <div class="price">$15.80</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/grapes.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Grapes</h3>
+                    <div class="price">$12.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/mutton.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Mutton</h3>
+                    <div class="price">$14.25</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/yought.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Youghurt</h3>
+                    <div class="price">$1.43</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/sausage Rolls.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Sausage Rolls</h3>
+                    <div class="price">$17.40</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/salmon.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Salmon</h3>
+                    <div class="price">$27.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/beetroot.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Beetroot</h3>
+                    <div class="price">$30.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/mango.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Mango</h3>
+                    <div class="price">$45.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/beef-inner-thighs.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Beef-Inner-Thighs</h3>
+                    <div class="price">$18.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/cheese.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Cheese</h3>
+                    <div class="price">$1.90</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/Cookies.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Cookies</h3>
+                    <div class="price">$35.25</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/shrimp.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Shrimp</h3>
+                    <div class="price">$25.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/butter.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Butter</h3>
+                    <div class="price">$2.75</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/turkey meat.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Turkey meat</h3>
+                    <div class="price">$45.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/tilapia.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Tilapia</h3>
+                    <div class="price">$26.75</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/banana.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">$25.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/cream biscuits.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Cream Biscuits</h3>
+                    <div class="price">$20.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/potatoes.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Potatoes</h3>
+                    <div class="price">$34.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="vegetables">
+                <div class="image"><img src="images/capsicum.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Capsicum</h3>
+                    <div class="price">$32.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="fruits">
+                <div class="image"><img src="images/avocado.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Avocado</h3>
+                    <div class="price">$16.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="meat">
+                <div class="image"><img src="images/organ meat.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Organ meat</h3>
+                    <div class="price">$54.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/ice-cream.jpeg" alt=""></div>
+                <div class="content">
+                    <h3>Ice-cream</h3>
+                    <div class="price">$104.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="seafood">
+                <div class="image"><img src="images/lobster.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Lobster</h3>
+                    <div class="price">$80.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/cupcakes.png" alt=""></div>     
+                <div class="content">
+                    <h3>Cupcakes</h3>
+                    <div class="price">$30.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="bakery">
+                <div class="image"><img src="images/tea bun.jpg" alt=""></div>     
+                <div class="content">
+                    <h3>Tea Bun</h3>
+                    <div class="price">$15.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box" data-category="dairy">
+                <div class="image"><img src="images/milk powder.jpg" alt=""></div>     
+                <div class="content">
+                    <h3>Milk Powder</h3>
+                    <div class="price">$1150.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i><i class="fas fa-heart"></i><i class="fas fa-eye"></i>
+                </div>
+            </div>
+    
+    
+        </div>
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we make organic food in market</h3>
+                <div class="divider"></div>
+                <p>At Grocery Plex, we provide fresh groceries, high-quality products, and excellent service—all in one convenient place. With a focus on healthy living and everyday ease, we make shopping simple and stress-free.</p>
+                <p>From farm-fresh produce to daily essentials, everything you need is just a click away. Enjoy great deals and fast, reliable delivery to your doorstep.</p>
+                <p>Grocery Plex—where freshness meets affordability.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="image">
+                <img src="images/about2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <p>I always buy my fruits and vegetables here. They are incredibly fresh and of superior quality. The packaging is also very hygienic and neat. I am extremely satisfied with their service!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-1.png" alt="">
+                        <div class="user-info">
+                            <h3>John Dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Incredibly fast service! I received my order at my doorstep in just 15 minutes. This is a huge relief for a busy person like me. A big thank you to the GroceryPlex team!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Shehani Joshp</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Much more affordable than other stores. Navigating the site is a breeze, making every order quick and secure. The quality of the fresh produce I received was truly outstanding!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Madhava Dias</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Top-notch service and the highest quality! I've been ordering all my household essentials from here for several months now. My orders have never been delayed even once.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-4.png" alt="">
+                        <div class="user-info">
+                            <h3>Darani Perera</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Even though I ordered the wrong item by mistake, their customer support team quickly resolved it for me. Their kind and responsible service is truly commendable. A very trustworthy place to shop!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-5.png" alt="">
+                        <div class="user-info">
+                            <h3>Jane Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>GroceryPlex has many items that are hard to find elsewhere. It’s so convenient to be able to buy all my household essentials in one place. The quality of the products is also top-notch!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-6.png" alt="">
+                        <div class="user-info">
+                            <h3>Ana Gunathilaka</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> our <span> blog</span> </h1>
+
+        <div class="box-container swiper blog-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="box swiper-slide">
+                    <div class="image">
+                        <img src="images/blog4.jpg" alt="">     
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <h3>Fresh Organic Vegetables</h3>
+                        <p>Discover the health benefits of including fresh, organic vegetables in your daily diet and how they boost your immunity.</p>
+                        <a href="#" class="btn"> read more </a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="image">
+                        <img src="images/blog2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <h3>Healthy Benefits of Organic Produce</h3>
+                        <p>Learn about the nutritional advantages of choosing organic fruits and vegetables and how they can improve your overall health.</p>
+                        <a href="#" class="btn"> read more </a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                   <div class="image">
+                        <img src="images/blog3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <h3>Healthy Cooking Tips</h3>
+                        <p>Learn how to cook your favorite meals using less oil and more natural spices to maintain a balanced and healthy lifestyle.</p>
+                        <a href="#" class="btn"> read more </a>
+                    </div>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="image">
+                        <img src="images/blog1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <h3>Healthy Vegetables to Try</h3>
+                        <p>Discover the nutritional benefits of various fresh, organic vegetables and how they can enhance your diet.</p>
+                        <a href="#" class="btn"> read more </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+               <p>
+                 <strong>GroceryPlex</strong> is your one-stop destination for fresh, 
+                 high-quality grocery items. From farm to doorstep, we ensure only 
+                 the best products reach you. With our<br> 
+                 <span class="highlight">15-minute delivery</span>, freshness is always guaranteed.
+               </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p>GroceryPlex Head Office<br>
+                No. 45, Main Street, Colombo, Sri Lanka.<br>
+                <strong>Phone:</strong> +94 77 123 4567<br>
+                <strong>Email:</strong> support@groceryplex.com</p>
+            </div>
+            <div class="box newsletter">
+    <h3>Newsletter</h3>
+    <p>Subscribe to get the latest offers and updates!</p>
+    <form action="" id="newsletter-form">
+        <input type="email" placeholder="Enter your email" class="email" required />
+        <input type="submit" value="Subscribe" class="btn" />
+    </form>
+</div>
+</div>
+        </div>
+
+        <div class="credit"><p>© 2026 GroceryPlex | All Rights Reserved.</p></div>
+
+    </section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
