@@ -9,7 +9,7 @@ Grocery Plex is a fully responsive and modern grocery store web application desi
 ## 🌍 Live Preview
 
 🔗 **Live Demo:**
-[ඔබේ Netlify / GitHub Pages / Vercel Link එක මෙතන දාන්න]
+https://upeka200163.github.io/Grocery-Plex-Super-Market/
 
 ---
 
