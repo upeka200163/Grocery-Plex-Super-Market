@@ -106,13 +106,13 @@ Features:
 
 # 🎨 Design Highlights
 
-✨ Modern Grocery Store Interface
-✨ Fully Responsive Layout
-✨ Mobile-First Design
-✨ Smooth Hover Effects & Animations
-✨ Interactive Product Filtering
-✨ Optimized User Experience (UX)
-✨ Clean Typography & Visual Hierarchy
+✨ Modern Grocery Store Interface </br >
+✨ Fully Responsive Layout   </br >
+✨ Mobile-First Design    </br >
+✨ Smooth Hover Effects & Animations   </br >
+✨ Interactive Product Filtering   </br > 
+✨ Optimized User Experience (UX)  </br > 
+✨ Clean Typography & Visual Hierarchy  </br >
 
 ---
 
